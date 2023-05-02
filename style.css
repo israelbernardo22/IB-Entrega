@@ -278,7 +278,7 @@ input {
   width: 100%;
   background-color: white;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-direction: column;
   margin-left: 0px;
   margin-bottom: 0;
@@ -299,5 +299,12 @@ input {
   font-size: 37px;
   text-align: center;
   width: 100%;
+}
+#containerLinks{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 3%;
 
 }
