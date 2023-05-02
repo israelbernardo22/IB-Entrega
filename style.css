@@ -308,3 +308,24 @@ input {
   margin: 3%;
 
 }
+
+.textExpl{
+  display: flex ;
+  max-width: 50%;
+  color: #ffffff;
+  font-size: 30px;
+  align-items: center;
+}
+
+#expl{
+  background-color: #8c8c8c;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#mockoup{
+  width: 50%;
+}
