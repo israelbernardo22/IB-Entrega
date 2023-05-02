@@ -102,7 +102,7 @@ body {
   top: 50%;
   flex-wrap: wrap;
 }
-@media all and (min-width: 390px) and (max-width: 1204px) {
+@media all and (max-width: 1204px) {
   #info {
     align-content: space-around;
   }
@@ -111,9 +111,7 @@ body {
 #bolinha-moto {
   position: relative;
   max-width: 90%;
-  margin-right: 7%;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin: 5%;
   top: 100%;
 }
 @media all and (min-width: 390px) and (max-width: 1204px) {
@@ -124,7 +122,7 @@ body {
 }
 @media (max-width: 600px) {
   #bolinha-moto {
-    display: none;
+    height: 20rem;
   }
 }
 
@@ -172,9 +170,7 @@ body {
 #motodinheiro {
   position: relative;
   max-width: 90%;
-  margin-right: 7%;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin: 5%;
   top: 100%;
 }
 @media all and (min-width: 390px) and (max-width: 1204px) {
@@ -185,7 +181,7 @@ body {
 }
 @media (max-width: 600px) {
   #motodinheiro {
-    display: none;
+    height: 20rem;
   }
 }
 
@@ -253,22 +249,21 @@ input {
   #iconDinheiro {
     position: relative;
     max-width: 90%;
-    margin-right: 7%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin: 5%;
     top: 100%;
   }
   @media all and (min-width: 390px) and (max-width: 1204px) {
     #iconDinheiro {
       margin: 0;
       margin-bottom: 2%;
+      height: 21rem;
     }
   }
   @media (max-width: 600px) {
     #iconDinheiro {
-      display: none;
-    }
+      height: 12rem;
   }
+}
 
 @media all and (min-width: 390px) and (max-width: 1204px) {
   .text_quant {
