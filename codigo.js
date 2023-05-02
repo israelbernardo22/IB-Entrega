@@ -29,6 +29,6 @@ function calculaentrega() {
 
     total = seguro + manutencao + oleo + gasolina + lucro + custov + custotempo; //somando todos os valores inclusos na corrida
 
-    document.getElementById("resp").innerText = "Com " + distancia +
+    document.getElementById("resp").innerText = "Resposta: Com " + distancia +
      " km e " + tempo + " minutos, o valor da corrida será: " + total.toFixed(2); //imprimindo o resultado
 }
