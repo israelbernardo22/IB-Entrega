@@ -74,7 +74,7 @@ body {
   #botoes {
     display: flex;
     flex-direction: column;
-    margin-right: 2%;
+    margin-right: 3%;
   }
 }
 
@@ -82,7 +82,7 @@ body {
   box-sizing: border-box;
   background-color: transparent;
   color: #3e3e3e;
-  margin: 5px;
+  margin: 5%;
   font-size: 15px;
   border: 0;
   text-decoration: none;
@@ -96,10 +96,8 @@ body {
 
 #info {
   display: flex;
-  justify-content: center;
   align-items: center;
   justify-content: space-around;
-  top: 50%;
   flex-wrap: wrap;
 }
 @media all and (max-width: 1204px) {
@@ -164,8 +162,6 @@ body {
     justify-content: space-around;
   }
 }
-
-
 
 #motodinheiro {
   position: relative;

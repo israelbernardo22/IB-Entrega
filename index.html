@@ -6,81 +6,103 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculo de Frete Para Motoboy</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
     <script src="./codigo.js"></script>
 
   </head>
 
   <body>
-      <div id="menu">
-        <img
-          id="IB-Logo"
-          src="./assets/logo1.png"
-          alt="Logomarca do aplicativo IB-Entrega"
-        >
-        <p id="motivacional">O preço ideal, valorizando o seu trabalho!</p>
-        <div id="botoes">
-          <a class="botoesmenu" href="#info">Sobre</a>
-          <a class="botoesmenu" href="#calculo">Cálculo</a>
-          <a class="botoesmenu" href="#contato">Contato</a>
-        </div>
+    <div id="menu">
+      <img
+        id="IB-Logo"
+        src="./assets/logo1.png"
+        alt="Logomarca do aplicativo IB-Entrega"
+      />
+      <p id="motivacional">O preço ideal, valorizando o seu trabalho!</p>
+      <div id="botoes">
+        <a class="botoesmenu" href="#info">Sobre</a>
+        <a class="botoesmenu" href="#calculo">Cálculo</a>
+        <a class="botoesmenu" href="#contato">Contato</a>
       </div>
-      
-      <div id="info">
+    </div>
+
+    <div id="info">
       <div class="text" id="text_sobre">
-            Este é um sistema desenvolvido com intuito de ajudar motoboys a
-            calcular o preço ideal a ser cobrado em suas entregas e serviços,
-            buscando valorizar e considerar todos os custos envolvidos no
-            serviço de moto frete.
-          </div>
-          <img
-            src="./assets/Bolinhamoto.jpg"
-            alt="Imagem moto com bau"
-            id="bolinha-moto">
-          </div>
+        Este é um sistema desenvolvido com intuito de ajudar motoboys a calcular
+        o preço ideal a ser cobrado em suas entregas e serviços, buscando
+        valorizar e considerar todos os custos envolvidos no serviço de moto
+        frete.
+      </div>
+      <img
+        src="./assets/Bolinhamoto.jpg"
+        alt="Imagem moto com bau"
+        id="bolinha-moto"
+      />
+    </div>
 
-          <div id="description">
-            <img src="./assets/motoinfo.jpg" alt="Imagem moto transportando dinheiro" id="motodinheiro">
-            <p class="text" id="text_description">
-               Chega de dificuldade para calcular o preço de suas entregas. Com
-              IB-Entrega, é possível realizar a precificação com facilidade,
-              agilidade e sem erros. Cobrando um preço justo, você pode trabalhar 
-              com mais tranquilidade e qualidade. Seu serviço sendo valorizado pelo 
-              seu esforço, dedicação e profissionalismo!
-            </p>
-          </div>
+    <div id="description">
+      <img
+        src="./assets/motoinfo.jpg"
+        alt="Imagem moto transportando dinheiro"
+        id="motodinheiro"
+      />
+      <p class="text" id="text_description">
+        Chega de dificuldade para calcular o preço de suas entregas. Com
+        IB-Entrega, é possível realizar a precificação com facilidade, agilidade
+        e sem erros. Cobrando um preço justo, você pode trabalhar com mais
+        tranquilidade e qualidade. Seu serviço sendo valorizado pelo seu
+        esforço, dedicação e profissionalismo!
+      </p>
+    </div>
 
-        <div id="calculo">
-            <div class="formulario_calculo">
-                <p class="text_quant">
-                  Informe a quantidade em <b>km</b>: <br>
-                  <input id="edtKM" title="km">
-                </p>
-                <p class="text_quant">
-                  Informe a quantidade em <b>minutos</b>: <br>
-                  <input id="edtTempo" title="tempo">
-                </p>
-                <button type="button" id="btnCalcula" onclick="calculaentrega()">Calcular</button>
+    <div id="calculo">
+      <div class="formulario_calculo">
+        <p class="text_quant">
+          Informe a quantidade em <b>km</b>: <br />
+          <input id="edtKM" title="km" />
+        </p>
+        <p class="text_quant">
+          Informe a quantidade em <b>minutos</b>: <br />
+          <input id="edtTempo" title="tempo" />
+        </p>
+        <button type="button" id="btnCalcula" onclick="calculaentrega()">
+          Calcular
+        </button>
 
-                <p id="resp">Resposta: </p>
-                
-              </div>
-              <img src="./assets/dinheiro.png" alt="Icone de Dinheiro" id="iconDinheiro">
-          </div>
+        <p id="resp">Resposta:</p>
+      </div>
+      <img
+        src="./assets/dinheiro.png"
+        alt="Icone de Dinheiro"
+        id="iconDinheiro"
+      />
+    </div>
 
-            <div id="contato">
-              <div class="textContato">
-                <p> Contato! </p>
-              </div>
-              <div id="containerIconContatos">
-              <a href="https://www.linkedin.com/in/israel-bernardo-36b97b204" target="_blank"><img class="iconContato" src="./assets/linkedin.png" alt="icon linkedin" href=""></a>
-              <a href="https://github.com/israelbernardo22/"><img class="iconContato" src="./assets/github.png" alt="Icon github"></a>
-              <a href="mailto:ib94534@gmail.com"><img class="iconContato" src="./assets/email.png" alt="Icon email"></a>
-              </div>
-            </div>
+    <div id="contato">
+      <div class="textContato">
+        <p>Contato!</p>
+      </div>
+      <div id="containerIconContatos">
+        <a
+          href="https://www.linkedin.com/in/israel-bernardo-36b97b204"
+          target="_blank"
+          ><img
+            class="iconContato"
+            src="./assets/linkedin.png"
+            alt="icon linkedin"
+            href=""
+        /></a>
+        <a href="https://github.com/israelbernardo22/"
+          ><img class="iconContato" src="./assets/github.png" alt="Icon github"
+        /></a>
+        <a href="mailto:ib94534@gmail.com"
+          ><img class="iconContato" src="./assets/email.png" alt="Icon email"
+        /></a>
+      </div>
+    </div>
   </body>
 </html>
